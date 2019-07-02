@@ -1,0 +1,357 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#515151;
+	font-family:"微软雅黑", "黑体";
+	line-height:24px;}
+	
+a{ text-decoration:none; color:#3c8be5}
+a:hover{ color:#d32a2a}
+ul{ list-style:none; padding:0; margin:0;}
+.clear{ clear:both;}
+img{ border:0; }
+h2,h3{ margin:0; padding:0}
+
+/*通用样------式*/
+.width-1200{
+	width:1200px;
+	margin:0 auto}
+.f-d32a2a{	color:#d32a2a}
+.f_006cbf{ color:#bf0000; font-weight:700}
+.f_006cbf:hover{ color:#005abf;}
+.w810-left{ width:810px; float:left;}
+.h320{ height:320px; margin-bottom:20px;}
+.h360{ height:360px; margin-bottom:20px;}
+/*标题*/
+.bt-01{ height:50px; line-height:50px; border-bottom:solid 2px #e1e2e2; color:#1f1f1f; font-size:20px; margin-bottom:12px;}
+.bt-01 img{	float:left; padding-top:10px; padding-right:10px;}
+.bt-01 a{ float:right; color:#ff7200; font-size:14px; padding-top:10px;}
+.bt-01 a:hover{ color:#06C}
+
+/*通用样式结---------束*/	
+
+/*右侧漂浮*/
+.right-piao{
+	width:100px;
+	position: fixed;
+	right:0;
+	top:40%;
+	z-index:999;}
+.right-piao a{
+	color:#d9d9d9;
+	font-size:14px;
+	text-align:center;
+	display: block;
+	width:100px;
+	height:80px;
+	padding-top:10px;
+	background:#262626;
+	margin-bottom:5px;
+	border:solid 1px #fff}
+.right-piao a:hover{
+	background:#3266a2}
+
+/*头部条*/	
+.top-title{
+	height:30px;
+	line-height:30px;
+	background:#f5f5f5;
+	font-size:12px;
+	font-family:"宋体";
+	border-bottom:solid 1px #eaeaea}
+
+.title-left{  float:left }	
+.title-right{ width:200px; float:right ; text-align:right}
+.couz{ background: url(../images/icon1.png) no-repeat left; padding-left:15px; color:#515151}
+.couz:hover{ color:#d32a2a}
+.help{ background: url(../images/icon2.png) no-repeat left; padding-left:15px; color:#515151}
+.help:hover{ color:#d32a2a}
+
+.logo{
+	float:left;
+	width:250px;
+	padding:20px 0}
+
+/*阳光快讯*/
+.ygkx-01{ height:126px; margin-bottom:15px;}
+.ygkx-img{
+	width:214px;
+	height:126px;
+	float:left}
+.ygkx-img img{
+	width:214px;
+	height:126px;}
+.ygkx-text{
+	height:126px;
+	float:right;
+	width:580px;}
+.ygkx-text h3{ color:#313131}
+.ygkx-text p{
+	color:#909090;
+	font-size:14px;
+	line-height:24px;}
+	
+.ygkx-list{
+	height:120px;
+	background:url(../images/bg1.gif) center no-repeat}
+.ygkx-list ul{
+	height:150px;}
+.ygkx-list ul li{
+	width:340px;
+	white-space: nowrap;
+	line-height:28px;
+	height:28px;
+	background:url(../images/list1.gif) no-repeat left;
+	padding-left:15px;}
+.ygkx-list ul li:nth-child(even){
+	float:left;}
+.ygkx-list ul li:nth-child(odd){
+	float:right;}
+.ygkx-list ul li a{
+	color:#605f5f;
+	float:left;}
+.ygkx-list ul li a:hover{
+	color:#d32a2a}
+.ygkx-list ul li span{
+	float:right;
+	color:#8d8d8d}
+
+	
+/*三个活动*/
+.hd-3{
+	width:336px;
+	float:right;}
+	
+	
+/*阳光课程*/
+#Tab1{
+margin:0px;
+padding:0px ;
+height:360px;
+float:left;
+width:570px;}
+#Tab2{
+margin:0px;
+padding:0px ;
+height:360px;
+float:right;
+width:570px;}
+#Tab9,#Tab10{
+margin:0px;
+padding:20px 0px 50px 0 ;
+width:100%;}
+
+/*菜单class*/
+.more-right{
+	position:absolute;
+	left:5px;
+	top:2px;
+	font-size:16px;
+	color:#d43333;
+	font-weight:700;}
+.Menubox {
+width:100%;
+height:35px;
+line-height:35px;
+color:#000;
+font-family:"微软雅黑", "黑体";
+position: relative;
+margin-bottom:15px;
+border-bottom:solid 2px #5285c1;
+}
+.Menubox ul{
+margin:0px;
+padding:0px;
+padding-left:80px;
+}
+.Menubox li{
+ float:left;
+ display:block;
+ cursor:pointer;
+ width:94px;
+ text-align:center;
+ font-size:14px;
+ }
+.Menubox li.hover{
+ padding:0px;
+ background:#5285c1;
+ width:94px;
+ color:#fff;
+ height:35px;
+line-height:35px;
+}
+.Menubox-li-hover{
+ padding:0px;
+ background:#5285c1;
+ width:94px;
+ color:#fff;
+ height:35px;
+line-height:35px;
+}
+.Contentbox{
+ clear:both;
+ margin-top:0px;
+ border-top:none;
+ text-align:center;
+}
+
+.kc-list{
+	margin:0;}
+.kc-list li{
+	width:271px;
+	height:143px;
+	float:left;
+	padding:0 7px 8px 7px}
+.kc-list li a{
+	position:relative}
+.kc-list li a img{
+	width:271px;
+	height:143px;}
+.kc-list li a span{
+	display:block;
+	width:271px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;background: rgba(67,67,67, 0.7);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f434343, endColorstr=#7f434343);}
+.kc-list li a span:hover{ color:#ffb431}
+
+/*阳光团*/
+.ygt{
+	width:570px;
+	height:240px;
+	float:left;}
+/*体育俱乐部*/
+.tyjlb{
+	width:570px;
+	height:240px;
+	float:right;}
+	
+.ygt-list{}
+.ygt-list ul li{
+	width:550px;
+	white-space: nowrap;
+	line-height:28px;
+	height:28px;
+	background:url(../images/list1.gif) no-repeat left;
+	padding-left:15px;}
+.ygt-list ul li a{
+	color:#000;
+	float:left;}
+.ygt-list ul li a:hover{
+	color:#d32a2a}
+.ygt-list ul li span{
+	float:right;
+	color:#8d8d8d}
+	
+.ygt-list2{
+	width:98%;
+	margin:0 auto}
+.ygt-list2 ul li{
+	white-space: nowrap;
+	line-height:45px;
+	border-bottom:dotted 1px #999;
+	height:45px;
+	background:url(../images/list1.gif) no-repeat left;
+	padding-left:15px;}
+.ygt-list2 ul li a{
+	color:#000;
+	float:left;
+	font-size:16px}
+.ygt-list2 ul li a:hover{
+	color:#d32a2a}
+.ygt-list2 ul li span{
+	float:right;
+	color:#8d8d8d}
+	
+/*foot*/
+.foot{
+	padding:15px 0;
+	color:#a1bfdb;
+	background:#27425b}
+	
+/*下拉菜单*/
+
+
+	
+.menu {  /*Make the left border */
+    
+	float:right;
+	padding-top:70px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*display: inline;*/
+}
+.menu ul li {
+    position: relative;
+    float: left;
+}
+.menu li ul {
+    position: absolute;
+    left: 0px;
+    top: 23px;
+    display: none;
+    border-bottom: 1px solid #777;
+    border-left: 0px;
+	z-index:999;
+}
+.menu ul li a {
+	
+	color:#252525;
+	font-size:16px;
+	display:block;
+	padding-left:30px;
+    text-decoration: none;
+	height:50px;
+	line-height:50px;
+}
+.menu ul li ul{
+	margin-top:25px;}
+.menu ul li ul li a { /* The border of main menus is different from the sub menus */
+    border-bottom: 1px solid #0071f1;
+	color:#fff;
+	width:130px;
+	line-height:30px;
+	height:30px;
+	background:#258cff;
+	font-size:14px;
+	padding:0;
+	text-align:center
+}
+.menu a:hover {
+    color: #F60;
+}
+/* Fix IE. Hide from IE Mac \*/
+* html ul li {
+    float: left;
+    height: 1%;
+}
+* html ul li a {
+    height: 1%;
+}
+/* End */
+li:hover ul, li.over ul {
+    display: block;
+}
+
+.span-menu{
+	display:block;
+	color:#fff;
+	background:#ed9430;
+	width:130px;
+	line-height:30px;
+	height:30px;
+	font-size:14px;
+	padding:0;
+	text-align:center}

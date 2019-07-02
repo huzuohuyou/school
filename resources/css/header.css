@@ -1,0 +1,36 @@
+/*¶¥²¿*/
+.top {width:990px;margin:0 auto;overflow:hidden;padding:0 5px; }
+.wrap_header{width:990px;margin:0 auto;padding:0;overflow:hidden}
+/*.header{background:url(../images/header_bg.jpg) repeat-x;height:113px;overflow:hidden;}*/
+.header{height:113px;overflow:hidden;}
+.top .logo{background:url(../img/logo.png) no-repeat;width:440px;height:80px;display:block;float:left;margin-top:20px;}
+.top .logo a{width:564px;height:113px;display:block;overflow:hidden}
+.top .top_right{line-height:25px; width:388px; margin-top:10px;padding-right:8px;float:right;text-align:right;overflow:hidden;}
+.top .top_right .each_item{color: #047EC0;line-height: 24px;}
+#edit_label{display:block;float:right;}
+.nav_menu{height:38px;line-height:38px; background:url(../images/nav-bg.png) repeat-x;overflow:hidden;}
+.nav_menu   a:link,.nav_menu   a:visited{display:block; font-weight:normal;text-decoration: none;font-family:\5FAE\8F6F\96C5\9ED1;font-size:15.8px;color:#FFF;font-weight:bold;float:left;width:100px;}
+.nav_menu .home_link{float:left;width:98px;text-align:center;}
+.nav_menu li{background:url(../images/nav-bg.png) repeat-x;float:left; display:inline-block; width:98px;overflow:hidden; text-align:center;}
+.nav_menu .over{}
+#menu_nav dl {display:none; z-index:99;position:absolute; width:98px;display:block; font-size:12px; border-bottom:1px solid #fff; margin-left:3px;margin-top:33px;}
+#menu_nav dl dt {background:#0E6BB1;  height:30px; line-height:30px;  width:98px; border-bottom:1px solid #ffffff}
+#menu_nav dl dt a:link, #menu_nav dl dt a:visited {font-family:\5FAE\8F6F\96C5\9ED1;font-size:12px; height:30px; line-height:30px; color:#fff; font-weight:nomal;font-size:12px;text-decoration: none; }
+#menu_nav dl dt a:hover { color:#fff; font-size:13px;}
+.nav_extra{background:url(../images/nav_extra_bg.gif) repeat-x;height:28px;line-height:28px;margin-bottom:3px}
+.nav_extra .searchbox{text-align:right;padding-right:30px;}
+.nav_extra .searchbox .keyword{ width:100px;height:16px; border:1px solid #cdcdcd;}
+.nav_extra .searchbox .submitbtn{  width:35px; height:18px; border:1px solid #cdcdcd;}
+.position{background: url(../images/nav.gif) no-repeat scroll 10px 50% #fff;font-size: 12px;height: 32px;line-height: 32px;margin: 0;padding:0 0 0 28px;}
+
+/*µ×²¿*/
+#footer {clear:both; display:block; font-family:Tahoma;padding:15px 0;text-align:center}
+#footer ul li { color:#333;line-height:200%;}
+#footer a.vison{color:#669900;}
+.frindlink{clear:both;margin-top:10px;width:990px;height:29px;line-height:29px;background:url(../images/main_141.gif) repeat-x center top;text-align:center;color:#fff;}
+.frindlink  a{color:#fff;}
+.frindlink .link{width:260px;height:22px;float:left;margin-left:30px;margin-top:6px;}
+.frindlink .link select {height:21px; line-height:21px; margin-right: 20px; width: 160px; overflow:hidden; }
+
+
+

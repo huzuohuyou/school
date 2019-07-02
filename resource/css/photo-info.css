@@ -1,0 +1,25 @@
+.frame {width:339px; height:301px; padding:10px; background:#fff; border:1px solid #ccc; float:left; margin-right:8px; display:inline; margin-left:5px;}
+.wrap {width:339px; height:301px; position:relative; overflow:hidden; font-family:arial, sans-serif;}
+.wrap img {display:block;width:339px; height:301px;}
+.wrap div {width:330px; height:301px; padding:300px 10px 10px 10px; position:absolute; left:0; top:0; background:url(trans.gif); z-index:500;}
+.wrap div b {display:block; width:339px; height:301px; position:absolute; left:0; top:300px; z-index:-1; background:#094081; filter: alpha(opacity=40);
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); opacity:0.40;}
+.wrap div span {position:relative;}
+.wrap div h1{ color:#fff; text-align:center; margin:0; padding:0; padding-top:15px; font-family:"微软雅黑", "黑体";}
+.wrap div h1 a{font-size:18px;}
+.wrap div p {font-size:12px; color:#fff; line-height:16px;}
+.wrap div a {color:#fff; font-size:14px; text-decoration:none; display:block; margin:0; text-align: center; width:330px;font-family:"微软雅黑", "黑体";}
+.wrap div a:hover {color:#ff0;}
+
+.clear {clear:both;}
+
+
+.wrap2 {width:216px; height:143px; position:relative; overflow:hidden; font-family:arial, sans-serif;}
+.wrap2 img {display:block;width:216px; height:143px;}
+.wrap2 div {width:216px; height:143px; padding:143px 0px 10px 0px; position:absolute; left:0; top:0; background:url(trans.gif); z-index:500;}
+.wrap2 div b {display:block; width:216px; height:143px; position:absolute; left:0; top:143px; z-index:-1; background:#094081; filter: alpha(opacity=40);
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); opacity:0.40;}
+.wrap2 div span {position:relative;}
+.wrap2 div p {font-size:12px; color:#fff; line-height:16px;}
+.wrap2 div a {font-size:18px;color:#fff; text-decoration:none; display:block; margin:0; text-align: center; width:196px; padding:20px 10px;font-family:"微软雅黑", "黑体";}
+.wrap2 div a:hover {color:#ff0;}

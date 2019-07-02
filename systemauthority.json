@@ -1,0 +1,3420 @@
+[
+    {
+        "id": "m001", 
+        "text": "系统管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m001", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m101", 
+                "path": "/root/m001/m101", 
+                "text": "用户管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b10101", 
+                        "path": "/root/m001/m101/b10101", 
+                        "text": "查询用户", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10102", 
+                        "path": "/root/m001/m101/b10102", 
+                        "text": "增加用户", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10103", 
+                        "path": "/root/m001/m101/b10103", 
+                        "text": "修改用户", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10104", 
+                        "path": "/root/m001/m101/b10104", 
+                        "text": "删除用户", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10105", 
+                        "path": "/root/m001/m101/b10105", 
+                        "text": "查看用户详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, 
+            {
+                "id": "m102", 
+                "path": "/root/m001/m102", 
+                "text": "角色管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b10201", 
+                        "path": "/root/m001/m102/b10201", 
+                        "text": "查询角色", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10202", 
+                        "path": "/root/m001/m102/b10202", 
+                        "text": "增加角色", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10203", 
+                        "path": "/root/m001/m102/b10203", 
+                        "text": "修改角色", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10204", 
+                        "path": "/root/m001/m102/b10204", 
+                        "text": "删除角色", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10205", 
+                        "path": "/root/m001/m102/b10205", 
+                        "text": "查看角色详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            },{
+                "id": "m103", 
+                "path": "/root/m001/m103", 
+                "text": "主管管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b10301", 
+                        "path": "/root/m001/m103/b10301", 
+                        "text": "查询主管", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10302", 
+                        "path": "/root/m001/m103/b10302", 
+                        "text": "增加主管", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10303", 
+                        "path": "/root/m001/m103/b10303", 
+                        "text": "修改主管", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b10304", 
+                        "path": "/root/m001/m103/b10304", 
+                        "text": "删除主管", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "id": "m002", 
+        "text": "文章系统", 
+        "iconCls": "project", 
+        "expanded": false, 
+        "path": "/root/m002", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m201", 
+                "path": "/root/m002/m201", 
+                "iconCls": "project_list", 
+                "text": "菜单管理", 
+                "leaf": false, 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b20101", 
+                        "path": "/root/m002/m201/b20101", 
+                        "text": "查询菜单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                     {
+                        "id": "b20102", 
+                        "path": "/root/m002/m201/b20102", 
+                        "text": "增加菜单", 
+                        "iconCls": "item-add", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                     {
+                        "id": "b20103", 
+                        "path": "/root/m002/m201/b20103", 
+                        "text": "修改菜单", 
+                        "iconCls": "item-edit", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20104", 
+                        "path": "/root/m002/m201/b20104", 
+                        "text": "删除菜单", 
+                        "iconCls": "item-delete", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20105", 
+                        "path": "/root/m002/m201/b20105", 
+                        "text": "查看详细信息", 
+                        "iconCls": "item-delete", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, 
+            {
+                "id": "m202", 
+                "path": "/root/m002/m202", 
+                "text": "单页管理", 
+                "leaf": false, 
+                "checked": false, 
+                "iconCls": "information", 
+                "children": [
+                    {
+                        "id": "b20201", 
+                        "path": "/root/m002/m202/b20201", 
+                        "text": "查询单页", 
+                        "iconCls": "view", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20202", 
+                        "path": "/root/m002/m202/b20202", 
+                        "text": "新增单页", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20203", 
+                        "path": "/root/m002/m202/b20203", 
+                        "text": "修改单页", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20204", 
+                        "path": "/root/m002/m202/b20204", 
+                        "text": "删除单页", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20205", 
+                        "path": "/root/m002/m202/b20205", 
+                        "text": "查看单页详情", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, 
+            {
+                "id": "m203", 
+                "path": "/root/m002/m203", 
+                "text": "文章管理", 
+                "leaf": false, 
+                "checked": false, 
+                "iconCls": "information", 
+                "children": [
+                    {
+                        "id": "b20301", 
+                        "path": "/root/m002/m203/b20301", 
+                        "text": "查询文章", 
+                        "iconCls": "view", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20302", 
+                        "path": "/root/m002/m203/b20302", 
+                        "text": "新增文章", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20303", 
+                        "path": "/root/m002/m203/b20303", 
+                        "text": "修改文章", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20304", 
+                        "path": "/root/m002/m203/b20304", 
+                        "text": "删除文章", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20305", 
+                        "path": "/root/m002/m203/b20305", 
+                        "text": "查看文章详情", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, 
+            {
+                "id": "m204", 
+                "path": "/root/m002/m204", 
+                "text": "图文管理", 
+                "leaf": false, 
+                "checked": false, 
+                "iconCls": "information", 
+                "children": [
+                    {
+                        "id": "b20401", 
+                        "path": "/root/m002/m204/b20401", 
+                        "text": "查询图文", 
+                        "iconCls": "view", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20402", 
+                        "path": "/root/m002/m204/b20402", 
+                        "text": "新增图文", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20403", 
+                        "path": "/root/m002/m204/b20403", 
+                        "text": "修改图文", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20404", 
+                        "path": "/root/m002/m204/b20404", 
+                        "text": "删除图文", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20405", 
+                        "path": "/root/m002/m204/b20405", 
+                        "text": "查看图文详情", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": "m205", 
+                "path": "/root/m002/m205", 
+                "text": "banner管理", 
+                "leaf": false, 
+                "checked": false, 
+                "iconCls": "information", 
+                "children": [
+                    {
+                        "id": "b20501", 
+                        "path": "/root/m002/m205/b20501", 
+                        "text": "查询", 
+                        "iconCls": "view", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20502", 
+                        "path": "/root/m002/m205/b20502", 
+                        "text": "新增banner", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20503", 
+                        "path": "/root/m002/m205/b20503", 
+                        "text": "修改banner", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20504", 
+                        "path": "/root/m002/m205/b20504", 
+                        "text": "删除图文", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20505", 
+                        "path": "/root/m002/m205/b20505", 
+                        "text": "查看banner详情", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": "m206", 
+                "path": "/root/m002/m206", 
+                "text": "底部管理", 
+                "leaf": false, 
+                "checked": false, 
+                "iconCls": "information", 
+                "children": [
+                    {
+                        "id": "b20601", 
+                        "path": "/root/m002/m206/b20601", 
+                        "text": "查询", 
+                        "iconCls": "view", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20602", 
+                        "path": "/root/m002/m206/b20602", 
+                        "text": "新增底部内容", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20603", 
+                        "path": "/root/m002/m206/b20603", 
+                        "text": "修改底部内容", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b20604", 
+                        "path": "/root/m002/m206/b20604", 
+                        "text": "删除底部内容", 
+                        "iconCls": "config", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "m003", 
+        "text": "课程管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m003", 
+        "checked": false, 
+        "children": [ 
+            {
+                "id": "m301", 
+                "path": "/root/m003/m301", 
+                "text": "课程库", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b30101", 
+                        "path": "/root/m003/m301/b30101", 
+                        "text": "查询课程", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b30102", 
+                        "path": "/root/m003/m301/b30102", 
+                        "text": "增加课程", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b30103", 
+                        "path": "/root/m003/m301/b30103", 
+                        "text": "修改课程", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b30104", 
+                        "path": "/root/m003/m301/b30104", 
+                        "text": "删除课程", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b30105", 
+                        "path": "/root/m003/m301/b30105", 
+                        "text": "查看课程详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b30106", 
+                        "path": "/root/m003/m301/b30106", 
+                        "text": "查看课程类型", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "m004", 
+        "text": "教师管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m004", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m401", 
+                "path": "/root/m004/m401", 
+                "text": "可用教师", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b40101", 
+                        "path": "/root/m004/m401/b40101", 
+                        "text": "查询教师", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },  
+                     {
+                        "id": "b40103", 
+                        "path": "/root/m004/m401/b40103", 
+                        "text": "修改教师状态", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b40105", 
+                        "path": "/root/m004/m401/b40105", 
+                        "text": "查看教师详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                     
+                ]
+            },{
+                "id": "m402", 
+                "path": "/root/m004/m402", 
+                "text": "机构管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b40201", 
+                        "path": "/root/m004/m402/b40201", 
+                        "text": "查询机构", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40202", 
+                        "path": "/root/m004/m402/b40202", 
+                        "text": "增加机构", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40203", 
+                        "path": "/root/m004/m402/b40203", 
+                        "text": "修改机构", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40204", 
+                        "path": "/root/m004/m402/b40204", 
+                        "text": "删除机构", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            },{
+                "id": "m403", 
+                "path": "/root/m004/m403", 
+                "text": "教师库", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b40301", 
+                        "path": "/root/m004/m403/b40301", 
+                        "text": "查询全部教师", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40302", 
+                        "path": "/root/m004/m403/b40302", 
+                        "text": "添加教师", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40303", 
+                        "path": "/root/m004/m403/b40303", 
+                        "text": "修改教师", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b40304", 
+                        "path": "/root/m004/m403/b40304", 
+                        "text": "删除教师", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40305", 
+                        "path": "/root/m004/m403/b40305", 
+                        "text": "查看教师信息", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b40306", 
+                        "path": "/root/m004/m403/b40306", 
+                        "text": "修改教师在职状态", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b40307", 
+                        "path": "/root/m004/m403/b40307", 
+                        "text": "录入教师", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                ]
+            }
+                ]   
+    }, 
+     {
+        "id": "m005", 
+        "text": "学生管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m005", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m501", 
+                "path": "/root/m005/m501", 
+                "text": "学生库", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b50101", 
+                        "path": "/root/m005/m501/b50101", 
+                        "text": "查询学生", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b50102", 
+                        "path": "/root/m005/m501/b50102", 
+                        "text": "增加学生", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b50103", 
+                        "path": "/root/m005/m501/b50103", 
+                        "text": "修改学生", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b50104", 
+                        "path": "/root/m005/m501/b50104", 
+                        "text": "删除学生", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },  
+                    {
+                        "id": "b50105", 
+                        "path": "/root/m005/m501/b50105", 
+                        "text": "查看学生详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b50106", 
+                        "path": "/root/m005/m501/b50106", 
+                        "text": "录入学生", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+                ]   
+    },
+     {
+        "id": "m006", 
+        "text": "销售人员管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m006", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m601", 
+                "path": "/root/m006/m601", 
+                "text": "销售人员管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b60101", 
+                        "path": "/root/m006/m601/b60101", 
+                        "text": "查询销售人员", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b60102", 
+                        "path": "/root/m006/m601/b60102", 
+                        "text": "增加销售人员", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b60103", 
+                        "path": "/root/m006/m601/b60103", 
+                        "text": "修改销售人员", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b60104", 
+                        "path": "/root/m006/m601/b60104", 
+                        "text": "删除销售人员", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },  
+                    {
+                        "id": "b60105", 
+                        "path": "/root/m006/m601/b60105", 
+                        "text": "查看销售人员详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+                ]   
+    },
+      {
+        "id": "m007", 
+        "text": "驻校人员管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m007", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m701", 
+                "path": "/root/m007/m701", 
+                "text": "驻校人员管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b70101", 
+                        "path": "/root/m007/m701/b70101", 
+                        "text": "查询驻校人员", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b70102", 
+                        "path": "/root/m007/m701/b70102", 
+                        "text": "增加驻校人员", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b70103", 
+                        "path": "/root/m007/m701/b70103", 
+                        "text": "修改驻校人员", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b70104", 
+                        "path": "/root/m007/m701/b70104", 
+                        "text": "删除销售人员", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },  
+                    {
+                        "id": "b70105", 
+                        "path": "/root/m007/m701/b70105", 
+                        "text": "查看销售人员详情", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": "m702", 
+                "path": "/root/m007/m702", 
+                "text": "驻校人员考勤", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b70201", 
+                        "path": "/root/m007/m702/b70201", 
+                        "text": "查询驻校人员列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },  
+                    {
+                        "id": "b70203", 
+                        "path": "/root/m007/m702/b70203", 
+                        "text": "驻校人员考勤", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": "m703", 
+                "path": "/root/m007/m703", 
+                "text": "教务人员管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b70301", 
+                        "path": "/root/m007/m703/b70301", 
+                        "text": "查询教务人员", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b70302", 
+                        "path": "/root/m007/m703/b70302", 
+                        "text": "增加教务人员", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b70303", 
+                        "path": "/root/m007/m703/b70303", 
+                        "text": "修改教务人员", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b70304", 
+                        "path": "/root/m007/m703/b70304", 
+                        "text": "删除教务人员", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+                ]   
+    },
+      {
+        "id": "m008", 
+        "text": "我的课程", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m008", 
+        "checked": false, 
+        "children": [
+                     {
+                       "id": "m801", 
+                       "path": "/root/m008/m801", 
+                       "text": "选课", 
+                       "leaf": false, 
+                       "iconCls": "work", 
+                       "checked": false,
+                       "children": [
+                        {
+                        "id": "b80104", 
+                        "path": "/root/m008/m801/b80104", 
+                        "text": "查询课程", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b80105", 
+                        "path": "/root/m008/m801/b80105", 
+                        "text": "查看课程介绍", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b80106", 
+                        "path": "/root/m008/m801/b80106", 
+                        "text": "选课", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                "id": "m802", 
+                "path": "/root/m008/m802", 
+                "text": "已选课程", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b80201", 
+                        "path": "/root/m008/m802/b80201", 
+                        "text": "查询已选课程", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b80206", 
+                        "path": "/root/m008/m802/b80206", 
+                        "text": "退课", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            }
+        ]
+    },
+    {
+        "id": "m009", 
+        "text": "教学管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m009", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m901", 
+                "path": "/root/m009/m901", 
+                "text": "排课管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                   {
+                        "id": "b90101", 
+                        "path": "/root/m009/m901/b90101", 
+                        "text": "查询排课课表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b90102", 
+                        "path": "/root/m009/m901/b90102", 
+                        "text": "增加班级", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b90103", 
+                        "path": "/root/m009/m901/b90103", 
+                        "text": "排课", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b90104", 
+                        "path": "/root/m009/m901/b90104", 
+                        "text": "删除班级", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b90105", 
+                        "path": "/root/m009/m901/b90105", 
+                        "text": "编辑班级", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b90106", 
+                        "path": "/root/m009/m901/b90106", 
+                        "text": "选择教师", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b90107", 
+                        "path": "/root/m009/m901/b90107", 
+                        "text": "学生名单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b90108", 
+                        "path": "/root/m009/m901/b90108", 
+                        "text": "选择学生", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },{
+                        "id": "b90109", 
+                        "path": "/root/m009/m901/b90109", 
+                        "text": "删除班级学生", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b90110", 
+                        "path": "/root/m009/m901/b90110", 
+                        "text": "代课", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                        "id": "b90111", 
+                        "path": "/root/m009/m901/b90111", 
+                        "text": "手动添加学生", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }   
+        ]
+    },
+     {
+        "id": "m011", 
+        "text": "我的账号", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m011", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m1101", 
+                "path": "/root/m011/m1101", 
+                "text": "修改密码", 
+                "leaf": true, 
+                "iconCls": "work", 
+                "checked": false
+            },
+             {
+                "id": "m1102", 
+                "path": "/root/m011/m1102", 
+                "text": "教师个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110201", 
+                        "path": "/root/m011/m1102/b110201", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110203", 
+                        "path": "/root/m011/m1102/b110203", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+               {
+                "id": "m1103", 
+                "path": "/root/m011/m1103", 
+                "text": "学生个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110301", 
+                        "path": "/root/m011/m1103/b110301", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110303", 
+                        "path": "/root/m011/m1103/b110303", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+            {
+                "id": "m1104", 
+                "path": "/root/m011/m1104", 
+                "text": "销售人员个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110401", 
+                        "path": "/root/m011/m1104/b110401", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110403", 
+                        "path": "/root/m011/m1104/b110403", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+            {
+                "id": "m1105", 
+                "path": "/root/m011/m1105", 
+                "text": "驻校人员个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110501", 
+                        "path": "/root/m011/m1105/b110501", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110503", 
+                        "path": "/root/m011/m1105/b110503", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+             {
+                "id": "m1106", 
+                "path": "/root/m011/m1106", 
+                "text": "销售主管个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110601", 
+                        "path": "/root/m011/m1106/b110601", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110603", 
+                        "path": "/root/m011/m1106/b110603", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+             {
+                "id": "m1107", 
+                "path": "/root/m011/m1107", 
+                "text": "活动主管个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110701", 
+                        "path": "/root/m011/m1107/b110701", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110703", 
+                        "path": "/root/m011/m1107/b110703", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+             {
+                "id": "m1108", 
+                "path": "/root/m011/m1108", 
+                "text": "策划人员个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110801", 
+                        "path": "/root/m011/m1108/b110801", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110803", 
+                        "path": "/root/m011/m1108/b110803", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            },
+             {
+                "id": "m1109", 
+                "path": "/root/m011/m1109", 
+                "text": "执行人员个人信息", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b110901", 
+                        "path": "/root/m011/m1109/b110901", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b110903", 
+                        "path": "/root/m011/m1109/b110903", 
+                        "text": "编辑", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+            
+                            ]
+            }
+        ]
+    
+    },
+     {
+        "id": "m012", 
+        "text": "我的课程", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m012", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m1201", 
+                "path": "/root/m012/m1201", 
+                "text": "课表查询", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b120101", 
+                        "path": "/root/m012/m1201/b120101", 
+                        "text": "查询我的课程", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b120102", 
+                        "path": "/root/m012/m1201/b120102",
+                        "text": "更改签到状态", 
+                        "iconCls": "accept1",
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b120103", 
+                        "path": "/root/m012/m1201/b120103",
+                        "text": "签到功能", 
+                        "iconCls": "accept1",
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b120104", 
+                        "path": "/root/m012/m1201/b120104",
+                        "text": "查询班级学生", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b120105", 
+                        "path": "/root/m012/m1201/b120105",
+                        "text": "学生签到", 
+                        "iconCls": "accept1",
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+            }, {
+                "id": "m1202", 
+                "path": "/root/m012/m1202", 
+                "text": "调课申请", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b120201", 
+                        "path": "/root/m012/m1202/b120201", 
+                        "text": "查询调课申请", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b120202", 
+                        "path": "/root/m012/m1202/b120202",
+                        "text": "添加调课申请", 
+                        "iconCls": "accept1",
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b120203", 
+                        "path": "/root/m012/m1202/b120203",
+                        "text": "查看调课申请", 
+                        "iconCls": "accept1",
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+            }
+        ]
+    },
+     {
+        "id": "m013", 
+        "text": "学校管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m013", 
+        "checked": false, 
+        "children": [
+               {
+                "id": "m1301", 
+                "path": "/root/m013/m1301", 
+                "text": "学校管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                    {
+                        "id": "b130101", 
+                        "path": "/root/m013/m1301/b130101", 
+                        "text": "查询学校", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b130103", 
+                         "path": "/root/m013/m1301/b130103", 
+                        "text": "修改学校", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b130104", 
+                        "path": "/root/m013/m1301/b130104",
+                        "text": "删除学校", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b130105", 
+                        "path": "/root/m013/m1301/b130105",
+                        "text": "查看学校备注", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b130106", 
+                        "path": "/root/m013/m1301/b130106",
+                        "text": "查看学校所在区", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    
+                ]
+            },
+             {
+                "id": "m1302", 
+                "path": "/root/m013/m1302", 
+                "text": "添加学校", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                    {
+                        "id": "b130201", 
+                        "path": "/root/m013/m1302/b130201", 
+                        "text": "查询学校", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b130202", 
+                        "path": "/root/m013/m1302/b130202",
+                        "text": "增加学校", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b130203", 
+                         "path": "/root/m013/m1302/b130203", 
+                        "text": "修改学校", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b130204", 
+                        "path": "/root/m013/m1302/b130204",
+                        "text": "删除学校", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b130205", 
+                        "path": "/root/m013/m1302/b130205",
+                        "text": "查看学校备注", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b130206", 
+                        "path": "/root/m013/m1302/b130206",
+                        "text": "查看学校所在区", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    
+                ]
+            }
+       
+        ]
+    },
+     {
+        "id": "m014", 
+        "text": "教师评级", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m014", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m1401", 
+                "path": "/root/m014/m1401", 
+                "text": "教师评级", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b140101", 
+                        "path": "/root/m014/m1401/b140101", 
+                        "text": "查询教师列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b140102", 
+                        "path": "/root/m014/m1401/b140102", 
+                        "text": "查询课堂内容展示", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b140103", 
+                        "path": "/root/m014/m1401/b140103", 
+                        "text": "查询驻校管理员评价", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b140104", 
+                        "path": "/root/m014/m1401/b140104", 
+                        "text": "查询评价内容", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b140105", 
+                        "path": "/root/m014/m1401/b140105", 
+                        "text": "查看展示内容", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b140106", 
+                        "path": "/root/m014/m1401/b140106", 
+                        "text": "评级", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b140107", 
+                        "path": "/root/m014/m1401/b140107", 
+                        "text": "查看评价内容", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b140108", 
+                        "path": "/root/m014/m1401/b140108", 
+                        "text": "添加评级内容", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b140109", 
+                        "path": "/root/m014/m1401/b140109", 
+                        "text": "删除评级", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b140110", 
+                        "path": "/root/m014/m1401/b140110", 
+                        "text": "查看评级内容", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b140111", 
+                        "path": "/root/m014/m1401/b140111", 
+                        "text": "批量下载照片", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]
+            }
+        ]
+    
+    },
+     {
+        "id": "m015", 
+        "text": "销售课程管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m015", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m1501", 
+                "path": "/root/m015/m1501", 
+                "text": "销售课程管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b150101", 
+                        "path": "/root/m015/m1501/b150101", 
+                        "text": "查询销售课程", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b150102", 
+                        "path": "/root/m015/m1501/b150102", 
+                        "text": "添加课程", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                     {
+                        "id": "b150103", 
+                        "path": "/root/m015/m1501/b150103", 
+                        "text": "添加销售课表", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                     },
+                     {
+                        "id": "b150104", 
+                        "path": "/root/m015/m1501/b150104", 
+                        "text": "班级管理", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                     },
+                     {
+                        "id": "b150106", 
+                        "path": "/root/m015/m1506/b150106", 
+                        "text": "删除课程", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b150107", 
+                        "path": "/root/m015/m1501/b150107", 
+                        "text": "查询课程", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                      {
+                        "id": "b150108", 
+                        "path": "/root/m015/m1501/b150108", 
+                        "text": "删除课表", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b150111", 
+                        "path": "/root/m015/m1501/b150111", 
+                        "text": "推荐课程", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b150112", 
+                        "path": "/root/m015/m1501/b150112", 
+                        "text": "查询学校", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                        "id": "b150113", 
+                        "path": "/root/m015/m1501/b150113", 
+                        "text": "排课提醒", 
+                        "iconCls": "accept1", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            }
+                ]   
+    },
+    {
+        "id": "m016", 
+        "text": "资料上传", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m016", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m1601", 
+                "path": "/root/m016/m1601", 
+                "text": "图片上传", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                    {
+                        "id": "b160101", 
+                        "path": "/root/m016/m1601/b160101", 
+                        "text": "查询图片上传", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                    {
+                        "id": "b160102", 
+                        "path": "/root/m016/m1601/b160102", 
+                        "text": "上传图片", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, 
+                     {
+                        "id": "b160103", 
+                        "path": "/root/m016/m1601/b160103", 
+                        "text": "添加图片上传", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b160104", 
+                        "path": "/root/m016/m1601/b160104", 
+                        "text": "删除图片上传", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                        "id": "b160105", 
+                        "path": "/root/m016/m1601/b160105", 
+                        "text": "查看图片详情", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                        "id": "b160106", 
+                        "path": "/root/m016/m1601/b160106", 
+                        "text": "修改图片信息", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                ]
+            },
+            {
+             "id": "m1602", 
+                "path": "/root/m016/m1602", 
+                "text": "教案上传", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                       {
+                        "id": "b160201", 
+                        "path": "/root/m016/m1602/b160201", 
+                        "text": "查询教案上传", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b160202", 
+                        "path": "/root/m016/m1602/b160202", 
+                        "text": "上传教案", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160203", 
+                        "path": "/root/m016/m1602/b160203", 
+                        "text": "添加教案", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160204", 
+                        "path": "/root/m016/m1602/b160204", 
+                        "text": "删除教案", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160205", 
+                        "path": "/root/m016/m1602/b160205", 
+                        "text": "查看教案", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160206", 
+                        "path": "/root/m016/m1602/b160206", 
+                        "text": "编辑教案", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                ]
+            },
+            {
+             "id": "m1603", 
+                "path": "/root/m016/m1603", 
+                "text": "期末总结", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false, 
+                "children": [
+                       {
+                        "id": "b160301", 
+                        "path": "/root/m016/m1603/b160301", 
+                        "text": "查询期末总结", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160302", 
+                        "path": "/root/m016/m1603/b160302", 
+                        "text": "增加期末总结", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160303", 
+                        "path": "/root/m016/m1603/b160303", 
+                        "text": "编辑期末总结", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160304", 
+                        "path": "/root/m016/m1603/b160304", 
+                        "text": "删除期末总结", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b160305", 
+                        "path": "/root/m016/m1603/b160305", 
+                        "text": "查看期末总结详情", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                
+                ]
+            }
+                ]   
+    },
+  
+    {
+        "id": "m017", 
+        "text": "学生管理（驻校）", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m017", 
+        "checked": false, 
+        "children": [
+                     {
+                       "id": "m1701", 
+                       "path": "/root/m017/m1701", 
+                       "text": "学生考勤", 
+                       "leaf": false, 
+                       "iconCls": "work", 
+                       "checked": false,
+                       "children": [
+                        {
+                        "id": "b170101", 
+                        "path": "/root/m017/m1701/b170101", 
+                        "text": "查询学校列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b170102", 
+                        "path": "/root/m017/m1701/b170102", 
+                        "text": "查询班级列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b170103", 
+                        "path": "/root/m017/m1701/b170103", 
+                        "text": "查询学生名单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+                  },
+                  {
+                      "id": "m1702", 
+                      "path": "/root/m017/m1702", 
+                      "text": "学生管理", 
+                      "leaf": false, 
+                      "iconCls": "work", 
+                      "checked": false,
+                      "children": [
+                        {
+                        "id": "b170201", 
+                        "path": "/root/m017/m1702/b170201", 
+                        "text": "查询学校列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b170202", 
+                        "path": "/root/m017/m1702/b170202", 
+                        "text": "查询学生名单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+              }
+        ]
+        
+    },
+    {
+        "id": "m018", 
+        "text": "教师管理（驻校）", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m018", 
+        "checked": false, 
+        "children": [
+                     {
+                       "id": "m1801", 
+                       "path": "/root/m018/m1801", 
+                       "text": "教师考勤", 
+                       "leaf": false, 
+                       "iconCls": "work", 
+                       "checked": false,
+                       "children": [
+                        {
+                        "id": "b180101", 
+                        "path": "/root/m018/m1801/b180101", 
+                        "text": "查询学校列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b180102", 
+                        "path": "/root/m018/m1801/b180102", 
+                        "text": "查询教师名单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b180103", 
+                        "path": "/root/m018/m1801/b180103", 
+                        "text": "签到", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+                  },
+                  {
+                "id": "m1802", 
+                "path": "/root/m018/m1802", 
+                "text": "教师评价", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b180201", 
+                        "path": "/root/m018/m1802/b180201", 
+                        "text": "查询学校列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }, {
+                        "id": "b180202", 
+                        "path": "/root/m018/m1802/b180202", 
+                        "text": "查询教师列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b180203", 
+                        "path": "/root/m018/m1802/b180203", 
+                        "text": "评价教师", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b180204", 
+                        "path": "/root/m018/m1802/b180204", 
+                        "text": "删除教师评价", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b180205", 
+                        "path": "/root/m018/m1802/b180205", 
+                        "text": "教师评价详情", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                       {
+                        "id": "b180206", 
+                        "path": "/root/m018/m1802/b180206", 
+                        "text": "修改教师评价", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                       }
+                    ]
+              }
+        ]
+        
+    },   
+     {
+        "id": "m019", 
+        "text": "调课申批", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m019", 
+        "checked": false, 
+        "children": [
+                     {
+                       "id": "m1901", 
+                       "path": "/root/m019/m1901", 
+                       "text": "待审批", 
+                       "leaf": false, 
+                       "iconCls": "work", 
+                       "checked": false,
+                       "children": [
+                        {
+                        "id": "b190101", 
+                        "path": "/root/m019/m1901/b190101", 
+                        "text": "查询全部待审批", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b190103", 
+                        "path": "/root/m019/m1901/b190103", 
+                        "text": "查看串课申请", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b190104", 
+                        "path": "/root/m019/m1901/b190104", 
+                        "text": "审批", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+                  },
+                  {
+                   "id": "m1902", 
+                   "path": "/root/m019/m1902", 
+                   "text": "已通过", 
+                   "leaf": false, 
+                   "iconCls": "work", 
+                   "checked": false,
+                   "children": [
+                        {
+                        "id": "b190201", 
+                        "path": "/root/m019/m1902/b190201", 
+                        "text": "查询已通过", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b190203", 
+                        "path": "/root/m019/m1902/b190203", 
+                        "text": "查看调课申请", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+                  },
+                   {
+                   "id": "m1903", 
+                   "path": "/root/m019/m1903", 
+                   "text": "未通过", 
+                   "leaf": false, 
+                   "iconCls": "work", 
+                   "checked": false,
+                   "children": [
+                        {
+                        "id": "b190301", 
+                        "path": "/root/m019/m1903/b190301", 
+                        "text": "查询未通过申请", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                    ]
+                  }
+        ]
+        
+    },{
+        "id": "m020", 
+        "text": "评价教师", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m020", 
+        "checked": false, 
+        "children": [
+             {
+                "id": "m2001", 
+                "path": "/root/m020/m2001", 
+                "text": "评价教师", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b200101", 
+                        "path": "/root/m020/m2001/b200101", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b200102", 
+                         "path": "/root/m020/m2001/b200102", 
+                        "text": "评价", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                       "id": "b200103", 
+                         "path": "/root/m020/m2001/b200103", 
+                        "text": "查看评价内容", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                            ]
+            }
+           ]
+    
+    }, {
+        "id": "m021", 
+        "text": "评价结果", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m021", 
+        "checked": false, 
+        "children": [
+             {
+                "id": "m2101", 
+                "path": "/root/m021/m2101", 
+                "text": "学生评价结果", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b210101", 
+                        "path": "/root/m021/m2101/b210101", 
+                        "text": "查询课程列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b210102", 
+                         "path": "/root/m021/m2101/b210102", 
+                        "text": "查询学生列表", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                       "id": "b210103", 
+                         "path": "/root/m021/m2101/b210103", 
+                        "text": "查看评价结果", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            },
+             {
+                "id": "m2102", 
+                "path": "/root/m021/m2102", 
+                "text": "教务评价结果", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b210201", 
+                        "path": "/root/m021/m2102/b210201", 
+                        "text": "查询评价列表", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b210202", 
+                         "path": "/root/m021/m2102/b210202", 
+                        "text": "查看评价结果", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            }
+           ]
+    
+    }, {
+        "id": "m022", 
+        "text": "活动人员管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m022", 
+        "checked": false, 
+        "children": [
+             {
+                "id": "m2201", 
+                "path": "/root/m022/m2201", 
+                "text": "策划人员管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b220101", 
+                        "path": "/root/m022/m2201/b220101", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b220102", 
+                        "path": "/root/m022/m2201/b220102", 
+                        "text": "增加", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                       "id": "b220103", 
+                         "path": "/root/m022/m2201/b220103",
+                        "text": "修改", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b220104", 
+                         "path": "/root/m022/m2201/b220104",
+                        "text": "删除", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            }, {
+                "id": "m2202", 
+                "path": "/root/m022/m2202", 
+                "text": "执行人员管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b220201", 
+                        "path": "/root/m022/m2202/b220201", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b220202", 
+                        "path": "/root/m022/m2202/b220202",  
+                        "text": "增加", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                    {
+                       "id": "b220203", 
+                        "path": "/root/m022/m2202/b220203", 
+                        "text": "修改", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b220204", 
+                        "path": "/root/m022/m2202/b220204", 
+                        "text": "删除", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            }
+           ]
+    
+    },
+    {
+        "id": "m024", 
+        "text": "统计报表", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m024", 
+        "checked": false, 
+        "children": [
+             {
+                "id": "m2401", 
+                "path": "/root/m024/m2401", 
+                "text": "开班统计", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b240101", 
+                        "path": "/root/m024/m2401/b240101", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b240102", 
+                        "path": "/root/m024/m2401/b240102", 
+                        "text": "导出excel表", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            },
+             {
+                "id": "m2402", 
+                "path": "/root/m024/m2402", 
+                "text": "教师出勤统计", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b240201", 
+                        "path": "/root/m024/m2402/b240201", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b240202", 
+                        "path": "/root/m024/m2402/b240202", 
+                        "text": "查看教师出勤详情", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            },{
+                "id": "m2403", 
+                "path": "/root/m024/m2403", 
+                "text": "学校整体情况统计", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b240301", 
+                        "path": "/root/m024/m2403/b240301", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            },{
+                "id": "m2404", 
+                "path": "/root/m024/m2404", 
+                "text": "驻校人员考勤汇总", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b240401", 
+                        "path": "/root/m024/m2404/b240401", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            },{
+                "id": "m2405", 
+                "path": "/root/m024/m2405", 
+                "text": "学生出勤情况统计", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b240501", 
+                        "path": "/root/m024/m2405/b240501", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            }
+           ]
+    
+    }, 
+     {
+        "id": "m025", 
+        "text": "资源库", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m025", 
+        "checked": false, 
+        "children": [
+             {
+                "id": "m2501", 
+                "path": "/root/m025/m2501", 
+                "text": "教师资源管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b250101", 
+                        "path": "/root/m025/m2501/b250101", 
+                        "text": "查询教师", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b250102", 
+                        "path": "/root/m025/m2501/b250102", 
+                        "text": "图片下载", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b250103", 
+                        "path": "/root/m025/m2501/b250103", 
+                        "text": "教案下载", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b250104", 
+                        "path": "/root/m025/m2501/b250104", 
+                        "text": "查看期末总结", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b250105", 
+                        "path": "/root/m025/m2501/b250105", 
+                        "text": "查询教师上传的图片", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b250106", 
+                        "path": "/root/m025/m2501/b250106", 
+                        "text": "查看照片详情", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b250107", 
+                        "path": "/root/m025/m2501/b250107", 
+                        "text": "批量下载照片", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b250108", 
+                        "path": "/root/m025/m2501/b250108", 
+                        "text": "教案下载", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b250109", 
+                        "path": "/root/m025/m2501/b250109", 
+                        "text": "批量下载教案", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }, {
+                       "id": "b250110", 
+                        "path": "/root/m025/m2501/b250110", 
+                        "text": "查看教案详情", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            },
+             {
+                "id": "m2502", 
+                "path": "/root/m025/m2502", 
+                "text": "驻校人员资源管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                    {
+                        "id": "b250201", 
+                        "path": "/root/m025/m2502/b250201", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                    },
+                     {
+                       "id": "b250202", 
+                        "path": "/root/m025/m2502/b250202", 
+                        "text": "查看驻校人员评价", 
+                        "iconCls": "operate", 
+                        "leaf": true, 
+                        "checked": false
+                    }
+                    ]
+            }
+           ]
+    
+    }, 
+    {
+        "id": "m026", 
+        "text": "活动管理", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m026", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m2601", 
+                "path": "/root/m026/m2601", 
+                "text": "活动管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b260101", 
+                        "path": "/root/m026/m2601/b260101", 
+                        "text": "查询活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b260102", 
+                        "path": "/root/m026/m2601/b260102", 
+                        "text": "添加活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b260103", 
+                        "path": "/root/m026/m2601/b260103",  
+                        "text": "编辑活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b260104", 
+                        "path": "/root/m026/m2601/b260104", 
+                        "text": "删除活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+            {
+                "id": "m2602", 
+                "path": "/root/m026/m2602", 
+                "text": "策划人员活动管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b260201", 
+                        "path": "/root/m026/m2602/b260201", 
+                        "text": "查询活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b260203", 
+                       "path": "/root/m026/m2602/b260203", 
+                        "text": "编辑活动工单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            }, {
+                "id": "m2603", 
+                "path": "/root/m026/m2603", 
+                "text": "活动主管活动管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b260301", 
+                        "path": "/root/m026/m2603/b260301", 
+                        "text": "查询活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b260302", 
+                       "path": "/root/m026/m2603/b260302", 
+                        "text": "查看活动工单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }, 
+                        {
+                        "id": "b260303", 
+                       "path": "/root/m026/m2603/b260303", 
+                        "text": "指定执行人员", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },{
+                "id": "m2604", 
+                "path": "/root/m026/m2604", 
+                "text": "执行人员活动管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b260401", 
+                        "path": "/root/m026/m2604/b260401", 
+                        "text": "查询活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b260402", 
+                        "path": "/root/m026/m2604/b260402", 
+                        "text": "保存或提交工单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }, {
+                        "id": "b260403", 
+                       " path": "/root/m026/m2604/b260403", 
+                        "text": "编辑工单", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            }			
+        ]
+    
+    },
+      {
+        "id": "m035", 
+        "text": "小程序宣传栏", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m035", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m3501", 
+                "path": "/root/m035/m3501", 
+                "text": "最新", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350101", 
+                        "path": "/root/m035/m3501/b350101", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350102", 
+                        "path": "/root/m035/m3501/b350102", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350103", 
+                        "path": "/root/m035/m3501/b350103",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350104", 
+                        "path": "/root/m035/m3501/b350104", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+             {
+                "id": "m3502", 
+                "path": "/root/m035/m3502", 
+                "text": "国内研学", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350201", 
+                        "path": "/root/m035/m3502/b350201", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350202", 
+                        "path": "/root/m035/m3502/b350202", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350203", 
+                        "path": "/root/m035/m3502/b350203",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350204", 
+                        "path": "/root/m035/m3502/b350204", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            }, {
+                "id": "m3503", 
+                "path": "/root/m035/m3503", 
+                "text": "国际研学", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350301", 
+                        "path": "/root/m035/m3503/b350301", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350302", 
+                        "path": "/root/m035/m3503/b350302", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350303", 
+                        "path": "/root/m035/m3503/b350303",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350304", 
+                        "path": "/root/m035/m3503/b350304", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            }, {
+                "id": "m3504", 
+                "path": "/root/m035/m3504", 
+                "text": "课程", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350401", 
+                        "path": "/root/m035/m3504/b350401", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350402", 
+                        "path": "/root/m035/m3504/b350402", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350403", 
+                        "path": "/root/m035/m3504/b350403",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350404", 
+                        "path": "/root/m035/m3504/b350404", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },	
+             {
+                "id": "m3505", 
+                "path": "/root/m035/m3505", 
+                "text": "活动", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350501", 
+                        "path": "/root/m035/m3505/b350501", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350502", 
+                        "path": "/root/m035/m3505/b350502", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350503", 
+                        "path": "/root/m035/m3505/b350503",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350504", 
+                        "path": "/root/m035/m3505/b350504", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },	
+             {
+                "id": "m3506", 
+                "path": "/root/m035/m3506", 
+                "text": "特惠", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350601", 
+                        "path": "/root/m035/m3506/b350601", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350602", 
+                        "path": "/root/m035/m3506/b350602", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350603", 
+                        "path": "/root/m035/m3506/b350603",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350604", 
+                        "path": "/root/m035/m3506/b350604", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+             {
+                "id": "m3507", 
+                "path": "/root/m035/m3507", 
+                "text": "微电影", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350701", 
+                        "path": "/root/m035/m3507/b350701", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350702", 
+                        "path": "/root/m035/m3507/b350702", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350703", 
+                        "path": "/root/m035/m3507/b350703",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350704", 
+                        "path": "/root/m035/m3507/b350704", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+             {
+                "id": "m3508", 
+                "path": "/root/m035/m3508", 
+                "text": "生涯规划", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350801", 
+                        "path": "/root/m035/m3508/b350801", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350802", 
+                        "path": "/root/m035/m3508/b350802", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350803", 
+                        "path": "/root/m035/m3508/b350803",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350804", 
+                        "path": "/root/m035/m3508/b350804", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+             {
+                "id": "m3509", 
+                "path": "/root/m035/m3509", 
+                "text": "艺考", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b350901", 
+                        "path": "/root/m035/m3509/b350901", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b350902", 
+                        "path": "/root/m035/m3509/b350902", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b350903", 
+                        "path": "/root/m035/m3509/b350903",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b350904", 
+                        "path": "/root/m035/m3509/b350904", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+             {
+                "id": "m3510", 
+                "path": "/root/m035/m3510", 
+                "text": "体育", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b351001", 
+                        "path": "/root/m035/m3510/b351001", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b351002", 
+                        "path": "/root/m035/m3510/b351002", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b351003", 
+                        "path": "/root/m035/m3510/b351003",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b351004", 
+                        "path": "/root/m035/m3510/b351004", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },
+             {
+                "id": "m3511", 
+                "path": "/root/m035/m3511", 
+                "text": "公益", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b351101", 
+                        "path": "/root/m035/m3511/b351101", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                        {
+                        "id": "b351102", 
+                        "path": "/root/m035/m3511/b351102", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                          {
+                        "id": "b351103", 
+                        "path": "/root/m035/m3511/b351103",  
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },
+                         {
+                        "id": "b351104", 
+                        "path": "/root/m035/m3511/b351104", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            }
+        ]
+    
+    },
+	{
+        "id": "m050", 
+        "text": "活动库", 
+        "iconCls": "desk", 
+        "expanded": false, 
+        "path": "/root/m050", 
+        "checked": false, 
+        "children": [
+            {
+                "id": "m5001", 
+                "path": "/root/m050/m5001", 
+                "text": "研学活动", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                 "children": [
+                        {
+                        "id": "b500101", 
+                        "path": "/root/m050/m5001/b500101", 
+                        "text": "查询研学活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500102", 
+                        "path": "/root/m050/m5001/b500102",
+                        "text": "添加研学活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500103", 
+                        "path": "/root/m050/m5001/b500103",
+                        "text": "编辑研学活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500104", 
+                        "path": "/root/m050/m5001/b500104",
+                        "text": "删除研学活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },{
+                "id": "m5002", 
+                "path": "/root/m050/m5002", 
+                "text": "综合实践活动", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b500201", 
+                        "path": "/root/m050/m5002/b500201", 
+                        "text": "查询综合实践活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500202", 
+                        "path": "/root/m050/m5002/b500202", 
+                        "text": "添加综合实践活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500203", 
+                        "path": "/root/m050/m5002/b500203", 
+                        "text": "编辑综合实践活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500204", 
+                        "path": "/root/m050/m5002/b500204", 
+                        "text": "删除综合实践活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },{
+                "id": "m5003", 
+                "path": "/root/m050/m5003", 
+                "text": "其他活动", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b500301", 
+                        "path": "/root/m050/m5003/b500301", 
+                        "text": "查询其他活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500302", 
+                        "path": "/root/m050/m5003/b500302", 
+                        "text": "添加其他活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500303", 
+                        "path": "/root/m050/m5003/b500303", 
+                        "text": "编辑其他活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500304", 
+                        "path": "/root/m050/m5003/b500304", 
+                        "text": "删除其他活动", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            },{
+                "id": "m5004", 
+                "path": "/root/m050/m5004", 
+                "text": "类别管理", 
+                "leaf": false, 
+                "iconCls": "work", 
+                "checked": false,
+                "children": [
+                        {
+                        "id": "b500401", 
+                        "path": "/root/m050/m5004/b500401", 
+                        "text": "查询", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500402", 
+                        "path": "/root/m050/m5004/b500402", 
+                        "text": "添加", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500403", 
+                        "path": "/root/m050/m5004/b500403", 
+                        "text": "编辑", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        },{
+                        "id": "b500404", 
+                        "path": "/root/m050/m5004/b500404", 
+                        "text": "删除", 
+                        "iconCls": "query", 
+                        "leaf": true, 
+                        "checked": false
+                        }
+                        ]			
+            }
+        ]
+    
+    }
+    
+]

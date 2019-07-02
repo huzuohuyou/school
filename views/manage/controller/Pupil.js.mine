@@ -1,0 +1,183 @@
+Ext.define('manage.controller.Pupil', {
+	extend : 'Ext.app.Controller',
+	refs : [ {
+		ref : 'queryForm',
+		selector : 'pupilscorequeryform'
+	}, {
+		ref : 'scoreGrid',
+		selector : 'pupilscoregrid'
+	} ],
+	views : [ 'message.SendMessageForm','pupil.HomeworkViewForm','attendance.ViewForm' ],
+	init : function(app) {
+		this.control({
+			'pupilstudentviewform button[action=refresh]' : {
+				click : this.loadData
+			},
+			'pupilstudentviewform' : {
+				beforerender : this.loadData
+			},
+			'pupilschedules button[action=refresh]' : {
+				click : this.loadSchedules
+			},
+			'pupilschedules' : {
+				beforerender : this.loadSchedules
+			},
+			'pupilhomeworkgrid button[action=query]' : {
+				click : this.queryHomework
+			},
+			'pupilhomeworkgrid actioncolumn[action=view]' : {
+				click : this.viewHomework
+			},
+			'pupilexammenu' : {
+				itemdblclick : this.queryScore
+			},
+			'pupilscoregrid button[action=query]' : {
+				click : this.queryScore1
+			},
+			'pupilattendancegrid button[action=query]' : {
+				click : this.queryAttendance
+			},
+			'pupilattendancegrid actioncolumn[action=view]' : {
+				click : this.viewAttendance
+			}
+		});
+	},
+	queryScore : function(o, record, item, index, e, eOpts) {
+		var form = this.getQueryForm();
+		var grid = Ext.getCmp('pupilscoregrid');
+		var button = grid.down('button[action=query]');
+		button.setDisabled(false);
+		form.form.findField('e_id').setValue(record.data.id);
+		var params = form.getValues();
+		var store = grid.getStore();
+		store.on("beforeload", function() {
+			store.proxy.extraParams = params;
+		});
+		store.loadPage(1);
+	},
+	queryScore1 : function(button) {
+		if (session.authority.indexOf('b80402') > -1) {
+			query(button);
+		} else {
+			Ext.Msg.alert('系统提示', '您无权进行此项操作');
+		}
+	},
+	queryHomework : function(button) {
+		if (session.authority.indexOf('b80301') > -1) {
+			query(button);
+		} else {
+			Ext.Msg.alert('系统提示', '您无权进行此项操作');
+		}
+	},
+	viewHomework : function(grid, rowIndex, colIndex, actionItem, event,
+			record, row) {
+		var formWin = createWin('查看作业信息', 'pupilhomeworkviewform');
+		formWin.down('form').loadRecord(record);
+		formWin.down('panel[name=content]').update(record.data.content);
+	},
+	queryAttendance : function(button) {
+		if (session.authority.indexOf('b80601') > -1) {
+			
+			query(button);
+		} else {
+			Ext.Msg.alert('系统提示', '您无权进行此项操作');
+		}
+	},
+	viewAttendance : function(grid, rowIndex, colIndex, actionItem, event, record,
+			row) {
+		var formWin = createWin('查看考勤信息', 'attendanceviewform');
+		formWin.down('form').loadRecord(record);
+		formWin.down('panel[name=content]').update(record.data.content);
+		if (record.data.pic)
+			Ext.getCmp('browseImage').getEl().dom.src = record.data.pic;
+	},
+	loadData : function(cmp) {
+		Ext.require('manage.model.student.Student',function(){
+			var form = cmp;
+			if (cmp.xtype == 'button')
+				form = cmp.up('form');
+			form.form.reset();
+			Ext.Ajax.request({
+				url : 'system.do',
+				params : {
+					action : 'queryByCondition',
+					funcId : 'f80101',
+					id : session.id
+				},
+				success : function(res, opts) {
+					var resp = Ext.decode(res.responseText);
+					if (resp.totalCount > 0) {
+						var data = resp.data;
+						var reader = new Ext.data.reader.Json({
+							model : 'manage.model.student.Student'
+						})
+						var records = reader.readRecords(data);
+						var record = records.records[0];
+						form.form.loadRecord(record);
+						form.form.findField('sex').setValue(record.data.sex==0?'男':'女');
+						if(record.data.pic)
+							Ext.getCmp('browseImage').getEl().dom.src = record.data.pic;
+					} else {
+						Ext.Msg.show({
+							title : '错误提示',
+							msg : resp.msg != null ? resp.msg
+									: '个人信息读取失败,请点击刷新按钮重新获取数据!',
+							buttons : Ext.Msg.OK,
+							icon : Ext.Msg.ERROR
+						});
+					}
+				},
+				failure : function(resp, opts) {
+					Ext.Msg.show({
+						title : '错误提示',
+						msg : '个人信息读取失败,请点击刷新按钮重新获取数据!',
+						buttons : Ext.Msg.OK,
+						icon : Ext.Msg.ERROR
+					});
+				}
+			});
+		});
+	},
+	loadSchedules : function(cmp) {
+		var form = cmp;
+		if (cmp.xtype == 'button')
+			form = cmp.up('form');
+		form.form.reset();
+		Ext.Ajax.request({
+			url : 'system.do',
+			params : {
+				action : 'queryByCondition',
+				funcId : 'f80201',
+				id : session.id
+			},
+			success : function(res, opts) {
+				var resp = Ext.decode(res.responseText);
+				if (resp.totalCount > 0) {
+					var data = resp.data;
+					for ( var i = 0; i < data.length; i++) {
+						var temp = data[i];
+						form.form.findField(temp.type).setValue(
+								'<span style="color:blue;">' + temp.c_name
+										+ '</span>');
+					}
+				} else {
+					Ext.Msg.show({
+						title : '错误提示',
+						msg : resp.msg != null ? resp.msg
+								: '课表信息读取失败,请点击刷新按钮重新获取数据!',
+						buttons : Ext.Msg.OK,
+						icon : Ext.Msg.ERROR
+					});
+				}
+			},
+			failure : function(resp, opts) {
+				Ext.Msg.show({
+					title : '错误提示',
+					msg : '课表信息读取失败,请点击刷新按钮重新获取数据!',
+					buttons : Ext.Msg.OK,
+					icon : Ext.Msg.ERROR
+				});
+			}
+		});
+	}
+});

@@ -1,0 +1,117 @@
+
+.img-vm {
+    vertical-align: middle;
+}
+.f-right {
+    float: right;
+}
+.f-left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.p2-crr {
+    color: #ff0000;
+    font-weight: bold;
+}
+.pg-3 {
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 5px auto;
+    padding: 3px;
+    text-align: center;
+}
+.pg-3 a, .total {
+    border: 1px solid #eee;
+    color: #036cb4;
+    margin: 2px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+.pg-3 a:hover {
+    border: 1px solid #999;
+    color: #666;
+}
+.pg-3 a:active {
+    border: 1px solid #999;
+    color: #666;
+}
+.pg-3 .current {
+    background: none repeat scroll 0 0 #036cb4;
+    border: 1px solid #036cb4;
+    color: #fff;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px 5px;
+}
+.pg-3 .disabled {
+    border: 1px solid #eee;
+    color: #ddd;
+    margin: 2px;
+    padding: 2px 5px;
+}
+.pg-4 {
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 5px auto;
+    padding: 3px;
+    text-align: right;
+}
+.pg-4 a, .count {
+    border: 1px solid #ddd;
+    color: #88af3f;
+    margin-right: 2px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+.pg-4 a:hover {
+    background-color: #f1ffd6;
+    border: 1px solid #85bd1e;
+    color: #638425;
+}
+.pg-4 a:active {
+    background-color: #f1ffd6;
+    border: 1px solid #85bd1e;
+    color: #638425;
+}
+.pg-4 .current {
+    background: none repeat scroll 0 0 #b2e05d;
+    border: 1px solid #b2e05d;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 2px 5px;
+}
+.pg-4 .disabled {
+    border: 1px solid #f3f3f3;
+    color: #ccc;
+    margin-right: 2px;
+    padding: 2px 5px;
+}
+.c1-bline {
+    border-bottom: 1px dashed #999;
+    border-top: 1px none;
+}
+label.error {
+    background: url("unchecked.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin-left: 3px;
+    padding-left: 16px;
+}
+label.success {
+    background: url("checked.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin-left: 3px;
+    padding-left: 16px;
+}
+.j-chkcode {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    display: none;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    z-index: 100;
+}
+.j-chkcode img {
+    cursor: pointer;
+}

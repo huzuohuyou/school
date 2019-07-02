@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+* { margin:0; padding:0; list-style:none;}
+html, body { 
+	background: url(../images/login/bg.gif);
+	overflow-y: auto;
+	overflow-x: hidden;
+	font:normal 15px "Microsoft YaHei";
+}
+/*文字样式*/
+.f18636363{ color:#636363; font-size:18px; }
+.f12c3c3c3{ color:#c3c3c3; font-size:12px; }
+.f14_959595{ color:#959595; text-decoration:none;}
+.f14_959595:hover{ color: #900; text-decoration:none;}
+/*百分之百宽度框样式*/
+.width100{
+	width:100%;
+	height:503px;
+	background:url(../images/login/bg01.gif) repeat-x top;
+	margin-top:10%;}
+.boxbg{
+	width:901px;
+	height:503px;
+	margin:0 auto;
+	background: url(../images/login/bg02.jpg) no-repeat}
+/*左侧*/
+.logo-left{
+	width:340px;
+	float:left;}
+/*logo*/
+.logo{
+	width:247px;
+	height:41px;
+	padding-top:15px;}
+.ewm{
+	width:380px;
+	height:180px;
+	color:#013a52;
+	font-size:14px;
+	text-align:center;
+	padding-top:120px;}
+.tell{
+	padding-top:10px;
+	color:#636363;
+	font-size:14px;
+	font-style: italic}
+/*右侧*/
+.logo-right{
+	width:450px;
+	float:right;
+	color:#959595;
+	margin-right:110px;}
+.close {	position:absolute;
+	top:10px;
+	right:10px;}
+.f12_38c1da {	font-size:12px;
+	text-decoration:none;
+	color:#38c1da;
+	font-family:"微软雅黑";}
+.f14_38c1da {	font-size:14px;
+	text-decoration:none;
+	color:#38c1da;
+	font-family:"微软雅黑";}
+.f14_38c1da:hover {	font-size:14px;
+	text-decoration:none;
+	color:#035797;
+	font-family:"微软雅黑";}
+.input2 {	width:300px;
+	height:43px;
+	line-height:43px;
+	border:solid 1px #c1c1c1;
+	padding:0;
+	padding-left:15px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	margin:0;}
+.input3 {	width:160px;
+	height:43px;
+	line-height:43px;
+	border:solid 1px #c1c1c1;
+	padding:0;
+	padding-left:15px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	margin:0;}
+.input4 {	width:315px;
+	height:43px;
+	line-height:43px;
+	background:#ed5900;
+	border:none;
+	padding:0;
+	padding-left:15px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	margin:0;
+	text-align:center;
+	cursor:pointer;
+	color:#fff}
+.input4:hover{
+	background:#d75101;}
+.input4:active{
+	background:#bc4700;}
